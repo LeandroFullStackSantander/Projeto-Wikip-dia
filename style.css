@@ -1,0 +1,113 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: small;
+}
+#y{list-style: none; padding-left: 5px; text-align:justify; margin-bottom: 7px; }
+a { color:rgb(1, 130, 121); text-decoration: none;}
+#txt, #y{
+    text-align: justify;
+}
+.bar {
+    background-color: #007270;
+    padding: 10px;
+    border-top: solid 1px #cdcdcd;
+    border-bottom: solid 1px #cdcdcd;
+}
+.content{
+    max-width: 1440px;
+    margin: auto;
+    grid-gap: 3rem;
+    display: grid;
+    gap: 3rem;
+    grid-template-areas: "sidebar main anchors";
+    grid-template-columns: minmax(0,15rem) minmax(0,2.5fr) minmax(0,15rem);
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.footer {
+    min-height: 100px;
+    border-top: solid 1px #cdcdcd;
+}
+.footer h2, h6{
+   margin-left: 30px;
+}
+#z{
+    display: inline;
+    bottom: 0;
+    right: 0;
+}
+.anchors {
+    border-left: solid 1px #cdcdcd;
+    padding-left: 15px;
+    text-align: center;
+}
+.sidebar, iframe{
+    border-right: solid 1px #cdcdcd;
+    text-align: center;
+}
+legend{
+    color:#007270
+}
+figure {
+    text-align: center;
+}
+figcaption{
+    font-style:inherit ;
+}
+ul li i{
+    font-weight: bold;
+}
+pre{
+    display: block;
+    white-space: pre;
+    font-family: monospace;
+    line-height: 125%;
+    margin: 1em 0px;
+    background: rgb(172, 172, 172);
+}
+pre p{
+    color: rgb(12, 228, 91);
+}
+pre{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+table{
+    box-shadow: 49px 45px 45px 12px rgba(100,100,100,0.75);
+    -webkit-box-shadow: 49px 45px 45px 12px rgba(100,100,100,0.75);
+    -moz-box-shadow: 49px 45px 45px 12px rgba(100,100,100,0.75);
+    border: solid 1px rgb(188, 188, 234);;
+    text-align: center;
+    font-size: small;
+}
+table thead th{
+    background-color: rgb(188, 188, 234);
+    color: rgb(0, 0, 0);
+}
+table tbody td{
+    border: solid 0.5px rgb(213, 213, 213);
+}
+table tr:hover td{
+    background-color: rgb(213, 213, 213);
+    cursor: pointer;
+}
+.container{
+    display: flex;
+    align-items:justify;
+}
+#x{
+    font-size:medium;
+}
+#q{
+    margin-left: 30px;
+}
+#img{
+    align-content: center;
+}
+iframe{
+    align-content: center;
+    margin: auto;
+}
+
